@@ -1,0 +1,50 @@
+#player-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    height: 38rem;
+    background-color: rgb(38, 40, 46);
+    border-radius: 3%;
+    box-shadow: inset -3px -3px 8px rgba(121, 121, 121, 0.8), inset 3px 3px 8px rgba(121, 121, 121, 0.8);
+}
+
+#album {
+    width: 20rem;
+    height: 18rem;
+    box-shadow: 2px 2px 10px rgba(30, 30, 30, 0.8), -2px -2px 10px rgba(30, 30, 30, 0.8);
+}
+
+#song {
+    margin: 2rem 0 0.3rem;
+    padding: 0.5rem;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: rgb(229, 222, 222);
+    border-bottom: 0.1rem solid rgb(229, 222, 222);
+}
+
+#artist {
+    margin-bottom: 2rem;
+    font-size: 1.2em;
+    color: rgb(229, 222, 222);
+}
+
+@media (max-width: 27rem) {
+    #player-info {
+        width: 16rem;
+        height: 26rem; 
+    }
+    #album {
+        width: 13rem;
+        height: 11rem;
+    }
+    #song {
+        font-size: 1em;
+    }
+    #artist {
+        margin-bottom: 1.5rem;
+        font-size: 0.8em;
+    }
+}

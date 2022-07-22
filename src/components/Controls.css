@@ -1,0 +1,41 @@
+#play, #backward, #forward {
+    margin: 0 0.5rem;
+    font-size: 1.3em;
+    cursor: pointer;
+    border: none;
+}
+
+#backward, #forward {
+    width: 2rem;
+    background: transparent;
+}
+
+.fa {
+    color: rgb(229, 222, 222);
+}
+
+#play {
+    width: 3.6rem;
+    height: 3.5rem;
+    background-color: rgb(229, 222, 222);
+    border-radius: 50%;
+}
+
+#play:hover, .fa:hover {
+    transform: scale(1.08);
+}
+
+
+@media (max-width: 26rem) {
+    #play, #backward, #forward {
+        margin: 0 0.3rem;
+        font-size: 1em;
+    }
+    #backward, #forward {
+        width: 1.5rem;
+    }
+    #play {
+        width: 2.8rem;
+        height: 2.7rem;
+    }
+}

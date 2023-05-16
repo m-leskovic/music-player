@@ -1,5 +1,5 @@
-import Player from './components/Player';
-import './App.css';
+import Player from "./components/Player";
+import "./App.css";
 
 const App = () => {
   return (
@@ -7,6 +7,6 @@ const App = () => {
       <Player />
     </div>
   );
-}
+};
 
 export default App;

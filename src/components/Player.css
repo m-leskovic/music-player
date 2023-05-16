@@ -31,7 +31,7 @@
     color: rgb(229, 222, 222);
 }
 
-@media (max-width: 27rem) {
+@media (max-width: 430px) {
     #player-info {
         width: 16rem;
         height: 26rem; 
